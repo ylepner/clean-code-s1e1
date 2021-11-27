@@ -129,21 +129,21 @@
 }
 
 /* Completed */
-.tasks-list#completed-tasks label {
+#completed-tasks .label-task {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-.tasks-list li input[type=text] {
+.items-li .input-text {
     display: none;
 }
 
-.tasks-list li.edit-mode input[type=text] {
+.edit-mode .input-text {
     display: inline-block;
     width: 224px;
 }
 
-.tasks-list li.edit-mode label {
+.edit-mode .label-task {
     display: none;
 }

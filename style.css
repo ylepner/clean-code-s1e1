@@ -5,7 +5,7 @@
     font-family: Lato, sans-serif;
 }
 
-.info-box {
+aside {
     width: 500px;
     margin: 0 auto;
     display: block;
@@ -16,19 +16,19 @@
     width: 100%;
 }
 
-.info-box .more-info {
+.more-info {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
     
-    .info-box { 
+    aside { 
         text-align: center;
     }
 
 }
 
-.main-container {
+main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -95,7 +95,7 @@
 }
 
 /* New Task */
-#new-task {
+#new-task .input-text {
     width: 318px;
 }
 

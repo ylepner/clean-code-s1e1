@@ -78,7 +78,7 @@
 }
 
 /* New Task */
-input#new-task {
+#new-task {
     width: 318px;
 }
 
@@ -87,16 +87,11 @@ li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-li > * {
-    vertical-align: middle;
-}
-
-li > input[type="checkbox"] {
+.input-checkbox {
     margin: 0 10px;
 }
 li > label {

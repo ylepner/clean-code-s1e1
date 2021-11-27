@@ -10,7 +10,7 @@
     display: block;
     text-align: right;
 }
-.info-box img {
+.img-info {
     width: 100%;
 }
 .info-box .more-info {
@@ -83,7 +83,7 @@
 }
 
 /* Task list */
-li {
+.items-li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -94,21 +94,18 @@ li {
 .input-checkbox {
     margin: 0 10px;
 }
-li > label {
+.label-task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
-    width: 226px
-}
-button.delete img {
+.remove-img{
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.remove-img:hover {
     transform: rotateZ(0);
 }
 

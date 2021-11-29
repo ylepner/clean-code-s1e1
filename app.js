@@ -18,7 +18,7 @@ var completedTasksHolder = document.getElementById("completed-tasks");//complete
 var createNewTaskElement = function (taskString) {
 
     var listItem = document.createElement("li");
-    listItem.classList.add('main-block__items-li')
+    listItem.classList.add("main-block__items-li")
 
     //input (checkbox)
     var checkBox = document.createElement("input");//checkbx
@@ -32,27 +32,27 @@ var createNewTaskElement = function (taskString) {
     //button.delete
     var deleteButton = document.createElement("button");//delete button
     var deleteButtonImg = document.createElement("img");//delete button image
-    deleteButtonImg.classList.add('main-block__img_remove')
+    deleteButtonImg.classList.add("main-block__img_remove")
 
     label.innerText = taskString;
-    label.className = 'b-task';
-    label.classList.add('b-task__label-task')
+    label.className = "b-task";
+    label.classList.add("b-task__label-task")
 
     //Each elements, needs appending
     checkBox.type = "checkbox";
-    checkBox.classList.add('b-task__input-checkbox')
+    checkBox.classList.add("b-task__input-checkbox")
     editInput.type = "text";
     editInput.className = "b-task";
-    editInput.classList.add('b-task__input-text')
+    editInput.classList.add("b-task__input-text")
     editButton.innerText = "Edit"; //innerText encodes special characters, HTML does not.
     editButton.className = "b-page__button_edit";
-    editButton.classList.add('b-page__button')
+    editButton.classList.add("b-page__button")
 
 
 
     deleteButton.className = "b-page__button_delete";
-    deleteButton.classList.add('b-page__button')
-    deleteButtonImg.src = './remove.svg';
+    deleteButton.classList.add("b-page__button")
+    deleteButtonImg.src = "./remove.svg";
     deleteButton.appendChild(deleteButtonImg);
 
 
@@ -90,7 +90,7 @@ var editTask = function () {
 
     var listItem = this.parentNode;
 
-    var editInput = listItem.querySelector('input[type=text]');
+    var editInput = listItem.querySelector("input[type=text]");
     var label = listItem.querySelector("label");
     var editBtn = listItem.querySelector(".b-page__button_edit");
     var containsClass = listItem.classList.contains("b-page__button_edit-mode");

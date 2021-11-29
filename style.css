@@ -1,28 +1,28 @@
 /* Basic Style */
-.page {
+.b-page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
 
-aside {
+.b-page__ad-block {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.img-info {
+.ad-block__img {
     width: 100%;
 }
 
-.more-info {
+.ad-block__link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
     
-    aside { 
+    .b-page__ad-block { 
         text-align: center;
     }
 
@@ -34,13 +34,13 @@ main {
     margin: 0 auto 0;
 }
 
-.task {
+.b-task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
 
-.task-wrapper {
+.main-block__task-wrapper {
     display: flex;
     padding: 20px 0px;
 }
@@ -51,7 +51,7 @@ main {
 }
 
 .button,
-.input-text {
+.b-input {
     color: #888;
     font-family: Lato, sans-serif;
 }
@@ -69,7 +69,7 @@ main {
 }
 
 /* Heading */
-.title {
+.b-page__title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -79,7 +79,7 @@ main {
     text-transform: uppercase;
 }
 
-.input-text {
+.b-input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -90,12 +90,12 @@ main {
     border-radius: 6px;
 }
 
-.input-text:focus {
+.b-input:focus {
     color: #333;
 }
 
 /* New Task */
-#new-task .input-text {
+#new-task .b-input {
     width: 318px;
 }
 
@@ -137,11 +137,11 @@ main {
 }
 
 /* Edit Task */
-.items-li .input-text {
+.items-li .b-input {
     display: none;
 }
 
-.edit-mode .input-text {
+.edit-mode .b-input {
     display: inline-block;
     width: 224px;
 }

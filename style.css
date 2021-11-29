@@ -141,11 +141,11 @@ main {
     display: none;
 }
 
-.edit-mode .b-task__input-text {
+.b-page__button_edit-mode .b-task__input-text {
     display: inline-block;
     width: 224px;
 }
 
-.edit-mode .b-task__label-task {
+.b-page__button_edit-mode .b-task__label-task {
     display: none;
 }
